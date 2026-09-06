@@ -1,4 +1,10 @@
-use_default_settings: true
+use_default_settings:
+  engines:
+    keep_only:
+      - bing
+      - mojeek
+      - wikipedia
+      - wikidata
 
 general:
   debug: false
@@ -17,3 +23,20 @@ server:
   port: 8080
   limiter: false
   image_proxy: true
+
+engines:
+  - name: bing
+    disabled: false
+    timeout: 8.0
+
+  - name: mojeek
+    disabled: false
+    timeout: 8.0
+
+  - name: wikipedia
+    disabled: false
+    timeout: 8.0
+
+  - name: wikidata
+    disabled: false
+    timeout: 8.0
