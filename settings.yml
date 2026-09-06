@@ -12,7 +12,7 @@ search:
     - json
 
 server:
-  secret_key: "ultrasecretkey"
+  secret_key: "CHANGE_ME_9f7c2a6e4b8d1c3f"
   bind_address: "0.0.0.0"
   port: 8080
   limiter: false
