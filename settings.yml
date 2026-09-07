@@ -1,11 +1,7 @@
 use_default_settings:
   engines:
     keep_only:
-      - brave
-      - duckduckgo
-      - startpage
       - yandex
-      - bing
       - wikipedia
       - wikidata
 
@@ -28,23 +24,7 @@ server:
   image_proxy: true
 
 engines:
-  - name: brave
-    disabled: false
-    timeout: 8.0
-
-  - name: duckduckgo
-    disabled: false
-    timeout: 8.0
-
-  - name: startpage
-    disabled: false
-    timeout: 8.0
-
   - name: yandex
-    disabled: false
-    timeout: 8.0
-
-  - name: bing
     disabled: false
     timeout: 8.0
 
