@@ -29,9 +29,9 @@ engines:
     timeout: 8.0
 
   - name: wikipedia
-    disabled: false
+    disabled: true
     timeout: 8.0
 
   - name: wikidata
-    disabled: false
+    disabled: true
     timeout: 8.0
