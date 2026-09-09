@@ -3,6 +3,7 @@ use_default_settings:
     keep_only:
       - yandex
       - google
+      - bing
       - wikipedia
       - wikidata
 
@@ -25,6 +26,10 @@ server:
   image_proxy: true
 
 engines:
+  - name: bing
+    disabled: false
+    timeout: 8.0
+
   - name: google
     disabled: false
     timeout: 8.0
